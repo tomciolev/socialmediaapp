@@ -1,0 +1,66 @@
+﻿version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./front
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    networks:
+      - mynetwork
+
+  identityapi:
+    build:
+      context: .
+      dockerfile: IdentityApi/Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5000
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=socialmediadb;User=sa;Password=YourStrongPassword!;
+    networks:
+      - mynetwork
+    
+  postapi:
+    build:
+      context: .
+      dockerfile: PostApi/Dockerfile
+    ports:
+      - "5073:5073"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5073
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=socialmediadb;User=sa;Password=YourStrongPassword!;
+    networks:
+      - mynetwork
+
+  reactionsapi:
+    build:
+      context: .
+      dockerfile: ReactionsApi/Dockerfile
+    ports:
+      - "5231:5231"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5231
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=socialmediadb;User=sa;Password=YourStrongPassword!;
+    networks:
+      - mynetwork
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrongPassword!
+    ports:
+      - "1433:1433"
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:

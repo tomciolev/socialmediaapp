@@ -1,0 +1,14 @@
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\bin\Debug\net6.0\ModelsLibrary.deps.json
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\bin\Debug\net6.0\ModelsLibrary.dll
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\bin\Debug\net6.0\ModelsLibrary.pdb
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\ModelsLibrary.csproj.AssemblyReference.cache
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\ModelsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\ModelsLibrary.AssemblyInfoInputs.cache
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\ModelsLibrary.AssemblyInfo.cs
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\ModelsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\ModelsLibrary.dll
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\refint\ModelsLibrary.dll
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\ModelsLibrary.pdb
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\ref\ModelsLibrary.dll
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\bin\Debug\net6.0\ModelsLibrary.runtimeconfig.json
+C:\Users\tomec\OneDrive\Pulpit\STUDIA\MGR_3SEMESTR\skalowalne aplikacje\socialmediaapp\ModelsLibrary\obj\Debug\net6.0\ModelsLibrary.genruntimeconfig.cache
